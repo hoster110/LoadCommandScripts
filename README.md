@@ -11,6 +11,7 @@ zh：
 
 在使用的时候 只需要链式执行
   1）./autotest.sh stop start xx等；
+  
   2）还可以在链式执行中对应的命令添加参数：./autotest.sh start [param...] stop xx [param...]
 
 特别适合使用在自动构建，自动化测试中，实现了插件式扩展（只需要持续新增run_xx.sh脚本）
@@ -25,9 +26,9 @@ examples：
 
 You can also add more run_x.sh, You only need to do chain execution when you use it
 
- 1)./autotest.sh stop start xx, etc.
+   1)./autotest.sh stop start xx, etc.
 
- 2) parameters can also be added to the corresponding commands in the chain execution:
+   2) parameters can also be added to the corresponding commands in the chain execution:
     ./autotest.sh start [param...] stop xx [param...]
     
 Particularly useful for automated builds, automated tests, and plug-in extensions (just keep adding run_x.sh scripts)
