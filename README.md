@@ -29,5 +29,6 @@ You can also add more run_x.sh, You only need to do chain execution when you use
 
 2) parameters can also be added to the corresponding commands in the chain execution:
     ./autotest.sh start [param...] stop xx [param...]
+    
 Particularly useful for automated builds, automated tests, and plug-in extensions (just keep adding run_x.sh scripts)
 
